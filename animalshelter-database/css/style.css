@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 1100px}
+
+/* Set gray background color and 100% height */
+
+img {
+	width: 100%;
+}
+    
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;} 
+}
+
+/* . is for class, # is for id */
+.container-fluid {
+	font-family: tahoma;
+	background-color: #fb671b;
+}
+.sidenav {
+  background-color: #333;
+  height: 100%;
+}
+.left-aside {
+	text-align: center;
+	font-size: 40px;
+}
+#main-body { 
+	text-align: center;
+	background-color: #f0f0f0;
+}
+.well {
+	 background-color: #fcfcfc;
+	 color: #fb671b;
+
+}
+.search-bar {
+ 	background-color: #fcfcfc;
+ 	margin: 5px 0px;
+}
+#main_table_container {
+	max-height: 220px;
+	overflow-y: auto;
+	text-align: center;
+}
+table {
+	width: 100%; 
+	text-align:left;
+	border-style: solid;
+	border-color: #1e4358;
+	border-size: 1px 0px;
+}
+tr:nth-child(odd) {background-color: #d2d2d2;}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.table-1 {
+}
+.formtitellink {
+	color: #fb671b;
+}
+.table-2 { 
+}
+.table-3 {
+}
+caption {
+	font-size:20px; 
+	text-align:center;
+	color:#111111;
+}
+.footer-image {
+	height: 90%;
+}
